@@ -72,8 +72,6 @@ class LandingRover {
                 this[setDirection](currentDirection)
             } else if(roverInstruction === "M"){
                 this.#move()
-            } else {
-                continue;
             }
         }
     }
